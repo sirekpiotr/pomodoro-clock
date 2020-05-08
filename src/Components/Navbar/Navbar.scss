@@ -1,0 +1,13 @@
+@import '../../Utilities/base';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    p {
+        color: $textColor;
+        font-size: 2.3rem;
+    }
+}

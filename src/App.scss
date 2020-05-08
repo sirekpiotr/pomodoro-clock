@@ -1,0 +1,24 @@
+@import "./Utilities/base";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1b1b2f;
+  width: 100vw;
+  min-height: 100vh;
+
+  * {
+    font-family: "Work Sans", sans-serif;
+  }
+
+  h1 {
+    color: $textColor;
+  }
+}

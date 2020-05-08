@@ -1,0 +1,49 @@
+@import '../../Utilities/base';
+
+.timer-select-headline {
+    color: $textColor;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.timer-types-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+
+    .timer-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        height: auto;
+        width: auto;
+        padding: 50px 60px;
+        position: relative;
+        top: 0px;
+
+        border-radius: 5px;
+        background-color: $secondaryColor;
+        color: $textColor;
+
+        margin-right: 20px;   
+        
+        .timer-name {
+            margin-bottom: 8px;
+
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        transition: all 0.1s linear;
+
+        &:hover {
+            top: -5px;
+            cursor: pointer;
+        }
+    }
+}

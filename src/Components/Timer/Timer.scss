@@ -13,5 +13,9 @@
         font-weight: 500;
         font-size: 10rem;
         color: #404070;
+
+        @include for-phone-only {
+            font-size: 6rem;
+        }
     }
 }

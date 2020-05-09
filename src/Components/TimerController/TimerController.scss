@@ -6,6 +6,11 @@
     width: auto;
     height: auto;
 
+    @include for-phone-only {
+       justify-content: space-around;
+       align-items: center;
+    }
+
     .button {
         position: relative;
         top: 0;
@@ -43,6 +48,11 @@
 
         &:focus {
             outline: 0;
+        }
+
+        @include for-phone-only {
+            margin: 0 10px;
+            width: 100px;
         }
     }
 
